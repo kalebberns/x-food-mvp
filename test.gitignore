@@ -1,0 +1,8 @@
+cat > requirements.txt << 'EOF'
+streamlit
+pandas
+EOF
+
+git add requirements.txt
+git commit -m "Add requirements for deployment"
+git push
